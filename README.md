@@ -12,6 +12,8 @@ A rclone docker image
 
 # Example
 
+第6步里，COMMAND部分直接填写想要执行的rclone命令，如果需要把gd1:download 文件夹复制到 gd2:download文件夹，则第6步如下运行
+
 ```
 bash deploy.sh rclone copy --progress -v gd1:download gd2:download
 ```
