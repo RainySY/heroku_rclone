@@ -4,4 +4,4 @@ RUN apt update && apt install wget unzip -y
 
 COPY root /
 
-ENTRYPOINT ["bootstrap.sh"]
+ENTRYPOINT ["/bootstrap.sh"]
